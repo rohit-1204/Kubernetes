@@ -165,22 +165,9 @@ Containers share:
 # 🔄 Pod Lifecycle
 
 A Pod moves through several phases.
+# 🔄 Pod Lifecycle
 
-```text
-Pending
-
-↓
-
-Running
-
-↓
-
-Succeeded
-
-↓
-
-Failed
-```
+⏳ **Pending** → 🚀 **Running** → ✅ **Succeeded** │ ❌ **Failed**
 
 Common Pod States:
 
