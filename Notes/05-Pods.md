@@ -162,7 +162,6 @@ Containers share:
 
 ---
 
-# 🔄 Pod Lifecycle
 
 A Pod moves through several phases.
 # 🔄 Pod Lifecycle
