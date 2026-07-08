@@ -202,7 +202,17 @@ Describe a namespace:
 ```bash
 kubectl describe namespace development
 ```
+Switch a namespace:
 
+```bash
+kubectl config set-context --current --namespace=dev
+```
+
+Check Current namespace:
+
+```bash
+kubectl config view --minify | findstr namespace
+```
 ---
 
 # 💻 Useful Commands
